@@ -8,11 +8,11 @@ import Events from '../views/Events.vue'
 import Login from '../views/Login.vue'
 import Profile from '../views/Profile.vue'
 import MyCourses from '../views/UserCourses.vue'
-import Announcment from '../views/Announcment.vue'
+import Announcement from '../views/Announcement.vue'
 import Chapter from '../views/Chapter.vue'
 import Forum from '../views/Forum.vue'
 import HomeCourse from '../views/HomeCourse.vue'
-import Quize from '../views/Quize.vue'
+import Quizzes from '../views/Quize.vue'
 import Syllabus from '../views/Syllabus.vue'
 
 const routes = [
@@ -81,9 +81,9 @@ const routes = [
 		}
 	},
 	{
-		path: '/announcments',
-		name: 'MyCoursesAnnouncment',
-		component: Announcment,
+		path: '/announcements',
+		name: 'MyCoursesAnnouncement',
+		component: Announcement,
 		meta: {
 			title: 'Master CS | My Courses'
 		}
@@ -97,9 +97,9 @@ const routes = [
 		}
 	},
 	{
-		path: '/quizes',
-		name: 'MyCoursesQuize',
-		component: Quize,
+		path: '/quizzes',
+		name: 'MyCoursesQuizzes',
+		component: Quizzes,
 		meta: {
 			title: 'Master CS | My Courses'
 		}
@@ -133,4 +133,3 @@ router.beforeEach((toRoute, fromRoute, next) => {
 });
 
 export default router
-
