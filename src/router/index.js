@@ -8,6 +8,12 @@ import Events from '../views/Events.vue'
 import Login from '../views/Login.vue'
 import Profile from '../views/Profile.vue'
 import MyCourses from '../views/UserCourses.vue'
+import Announcment from '../views/Announcment.vue'
+import Chapter from '../views/Chapter.vue'
+import Forum from '../views/Forum.vue'
+import HomeCourse from '../views/HomeCourse.vue'
+import Quize from '../views/Quize.vue'
+import Syllabus from '../views/Syllabus.vue'
 
 const routes = [
 	{
