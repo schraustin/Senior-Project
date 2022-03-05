@@ -65,6 +65,54 @@ const routes = [
 		meta: {
 			title: 'Master CS | My Courses'
 		}
+	},
+	{
+		path: '/homecourse',
+		name: 'MyCoursesHome',
+		component: HomeCourse,
+		meta: {
+			title: 'Master CS | My Courses'
+		}
+	},
+	{
+		path: '/announcments',
+		name: 'MyCoursesAnnouncment',
+		component: Announcment,
+		meta: {
+			title: 'Master CS | My Courses'
+		}
+	},
+	{
+		path: '/chapter',
+		name: 'MyCoursesChapter',
+		component: Chapter,
+		meta: {
+			title: 'Master CS | My Courses'
+		}
+	},
+	{
+		path: '/quizes',
+		name: 'MyCoursesQuize',
+		component: Quize,
+		meta: {
+			title: 'Master CS | My Courses'
+		}
+	},
+	{
+		path: '/syllabus',
+		name: 'MyCoursesSyllabus',
+		component: Syllabus,
+		meta: {
+			title: 'Master CS | My Courses'
+		}
+	},
+	{
+		path: '/forum',
+		name: 'MyCoursesForum',
+		component: Forum,
+		meta: {
+			title: 'Master CS | My Courses'
+		}
 	}
 ]
 
