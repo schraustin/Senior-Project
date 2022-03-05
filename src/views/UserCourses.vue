@@ -9,13 +9,13 @@
             <h1>Home</h1>
             </ol></router-link>
             <router-link  :to="{ path: '/announcments', query: $route.query }"><ol class="">
-            <h1>Announcments</h1>
+            <h1>Announcements</h1>
             </ol></router-link>
             <router-link  :to="{ path: '/chapter', query: $route.query }"><ol class="">
             <h1>Course Chapters</h1>
             </ol></router-link>
             <router-link  :to="{ path: '/quizes', query: $route.query }"><ol class="">
-            <h1>Quizes</h1>
+            <h1>Quizzes</h1>
             </ol></router-link>
             <router-link  :to="{ path: '/syllabus', query: $route.query }"><ol class="">
             <h1>Syllabus</h1>
