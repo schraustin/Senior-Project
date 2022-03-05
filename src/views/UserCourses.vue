@@ -28,8 +28,8 @@
         <div class="col-md-6">
         <div class="col-md-12">
           <span style="float:right">
-            <button type="button" class="btn btn-dark m-4 enroll" @click="Enroll()" v-if="toggleEnroll">Enroll</button>
-            <button type="button" class="btn btn-dark m-4 enroll" @click="Enroll()" v-if="!toggleEnroll">Unenroll</button>
+            <button type="button" class="btn btn-dark m-4 enroll" @click="Enroll()" v-if="toggleEnroll">Enroll This Course</button>
+            <button type="button" class="btn btn-dark m-4 enroll" @click="Enroll()" v-if="!toggleEnroll">Unenroll This Course</button>
           </span>
       </div>
         </div>
