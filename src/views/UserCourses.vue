@@ -8,13 +8,13 @@
            <router-link  :to="{ path: '/homecourse', query: $route.query }" > <ol class="mt-4">
             <h1>Home</h1>
             </ol></router-link>
-            <router-link  :to="{ path: '/announcments', query: $route.query }"><ol class="">
+            <router-link  :to="{ path: '/announcements', query: $route.query }"><ol class="">
             <h1>Announcements</h1>
             </ol></router-link>
             <router-link  :to="{ path: '/chapter', query: $route.query }"><ol class="">
             <h1>Course Chapters</h1>
             </ol></router-link>
-            <router-link  :to="{ path: '/quizes', query: $route.query }"><ol class="">
+            <router-link  :to="{ path: '/quizzes', query: $route.query }"><ol class="">
             <h1>Quizzes</h1>
             </ol></router-link>
             <router-link  :to="{ path: '/syllabus', query: $route.query }"><ol class="">
