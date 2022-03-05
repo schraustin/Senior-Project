@@ -29,7 +29,7 @@
         <div class="col-md-12">
           <span style="float:right">
             <button type="button" class="btn btn-dark m-4 enroll" @click="Enroll()" v-if="toggleEnroll">Enroll</button>
-            <button type="button" class="btn btn-dark m-4 enroll" @click="Enroll()" v-if="!toggleEnroll">Denroll</button>
+            <button type="button" class="btn btn-dark m-4 enroll" @click="Enroll()" v-if="!toggleEnroll">Unenroll</button>
           </span>
       </div>
         </div>
