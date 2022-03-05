@@ -133,3 +133,4 @@ router.beforeEach((toRoute, fromRoute, next) => {
 });
 
 export default router
+
