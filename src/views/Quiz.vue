@@ -1,8 +1,8 @@
 <template>
   <div>
-    <custom-header :title="this.course+' Quiz'"></custom-header>
-    <img src="../assets/img/quiz/chQuiz.png" height="200" width="800"
-        style="margin-left: 33%;margin-bottom: 20px;">
+    <custom-header :title="this.course+' Quizzes'"></custom-header>
+    <!-- <img src="../assets/img/quiz/chQuiz.png" height="200" width="800"
+        style="margin-left: 33%;margin-bottom: 20px;"> -->
     <div class="parent">
       <ul class="nav-left-container">
         <li v-for="(c, index) in ch" v-bind:key="index">
@@ -60,7 +60,7 @@ export default {
 <style scoped>
 .parent {
   position: absolute;
-  top: 520px;
+  top: 330px;
   bottom: 100px;
   left: 0;
   right: 0;

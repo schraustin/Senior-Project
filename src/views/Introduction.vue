@@ -3,9 +3,6 @@
     <custom-header :title="'Introduction Quiz'"></custom-header>
     <div style="margin-left:20px;">
       <div v-if="this.result===0" style="margin-left: 20%;margin-right: 20%;">
-        <h1>What Type of Learner Are You?</h1>
-        <img src="../assets/img/quiz/introQuiz.png"
-            style="text-align:center;margin-right: 15%;margin-bottom: 15px;margin-top: 15px" height="300">
         <div v-for="(pro,idx) in list" :key="pro.QuestionID">
           <p class="content">{{ pro.QuestionID }}. {{ pro.Content }}</p>
           <label>
